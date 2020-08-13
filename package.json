@@ -1,5 +1,5 @@
 {
-  "name": "clean node",
+  "name": "node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jefersonmatheusx/node.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
