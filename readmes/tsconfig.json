@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", //onde vamos gerar nosso código em javascript que serão publicados no servidor
+    "module": "commonjs", //para usarmos o import e export (ec06)... gerar o javascript com o formato node --> require('bla')
+    "target": "ES2019", // escolher a versão do ecman script q vai gerar o javascript, tem que entender a sua versão do node e se ele dá suporte a alguma versão do ES
+    "esModuleInterop": true,
+    "allowJs":true // permitir arquivos que já forem em js (arquivos de configuração)
+  }
+}
