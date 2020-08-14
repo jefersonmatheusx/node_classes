@@ -10,3 +10,5 @@
         s = !git status
         c = !git add --all && git commit 
         l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
+padrão de commit git-commit-msg-linter
