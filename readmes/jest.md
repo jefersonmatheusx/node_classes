@@ -15,3 +15,7 @@ são cada instância de teste da sua aplicação
 
 toBe() não podemos usar o toBe para 2 objetos, pois ele compara tambem o ponteiro do  objeto. e devem ser identicos 
 toEqal() compara só os valores dos objetos 
+
+### jest methods
+spyOn --> quando se quer espionar qual metodo de uma instancia, e após espionar ele poe fazer algo naquele metodo como : mockReturnValueOnce
+  --mockReturnValueOnce --> seta um valor no parametro daquele metodo 
