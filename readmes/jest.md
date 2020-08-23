@@ -19,3 +19,4 @@ são cada instância de teste da sua aplicação
 ### jest methods
 spyOn --> quando se quer espionar qual metodo de uma instancia, e após espionar ele poe fazer algo naquele metodo como : mockReturnValueOnce
   --mockReturnValueOnce --> seta um valor no parametro daquele metodo 
+  --mockImplementationOnce --> moca a implementação do metodo, substituindo por outro (uma vez só )
