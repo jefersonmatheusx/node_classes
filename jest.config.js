@@ -2,6 +2,15 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
+  coveragePathIgnorePatterns: [
+    'node_modules',
+    'test-config',
+    'interfaces',
+    '.protocols.ts',
+    '.module.ts',
+    '<rootDir>/src/app/main.ts',
+    '.mock.ts',
+  ],
   // A list of paths to directories that Jest should use to search for files in
   roots: ['<rootDir>/src'],
   // The test environment that will be used for testing
@@ -17,7 +26,7 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    '.+\\.ts$': 'ts-jest' // rodar script de converter ts para js
+    '.+\\.ts$': 'ts-jest', // rodar script de converter ts para js
   },
   // All imported modules in your tests should be mocked automatically
   // automock: false,
