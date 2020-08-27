@@ -13,11 +13,11 @@ module.exports = {
   coverageDirectory: 'coverage',
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: 'v8',
+  // coverageProvider: 'v8',
 
   // A map from regular expressions to paths to transformers
   transform: {
-    '.+\\.ts$': 'ts-jest', //rodar script de converter ts para js
+    '.+\\.ts$': 'ts-jest' // rodar script de converter ts para js
   },
   // All imported modules in your tests should be mocked automatically
   // automock: false,
